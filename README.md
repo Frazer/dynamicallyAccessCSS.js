@@ -2,7 +2,8 @@
 edit rules in your css
 
 it is as simple as
-    <script src="dynamicallyAccessCSS.js"></script>
+
+    `<script src="dynamicallyAccessCSS.js"></script>`
     
     ...
     
