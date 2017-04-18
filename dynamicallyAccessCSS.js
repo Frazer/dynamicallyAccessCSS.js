@@ -1,3 +1,12 @@
+/**
+ * dynamicallyAccessCSS 
+ *
+ * @link    https://github.com/Frazer/dynamicallyAccessCSS.js
+ * @license GPLv3
+ *          
+ * @author  Frazer Kirkman
+ *
+ */
 
 var returnStyleSheetRules = (function (){  
 	if(!document.styleSheets[0]){
