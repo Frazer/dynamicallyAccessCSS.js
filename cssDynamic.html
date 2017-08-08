@@ -2,6 +2,12 @@
 <html>
 <head>
 <script src="dynamicallyAccessCSS.js"></script>
+<style>
+.class1{color:blue;}
+</style>
+<style>
+.class1{font-size:20px;}
+</style>
 </head>
 <body>
 
@@ -9,8 +15,16 @@
 <p class="class1">My p 1</p>
 
 <button class="class1" type="button"
-onclick="getCSSRule('class1').style.color='red'">
-Click Me!</button>
+onclick="getCSSRule('.class1',true)[0].style.color='red'">
+Overwrite first stylesheet</button>
+<br>
+<button class="class1" type="button"
+onclick="getCSSRule('.class1').style.color='green'">
+Change color by adding latest rule</button>
+<br>
+<button class="class1" type="button"
+onclick="getCSSRule('.class1').style.color=''">
+Remove latest rule</button>
 
 
 </body>
