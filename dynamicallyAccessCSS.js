@@ -5,7 +5,7 @@
  * @license MIT
  *          
  * @author  Frazer Kirkman
- * @published 2017
+ * @published 2016
  */
 
 var returnStyleSheetRules = (function (){  
